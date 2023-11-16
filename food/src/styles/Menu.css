@@ -38,7 +38,7 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
-    height: 250px;
+    height: 200px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,6 +46,28 @@
 
 .menuItem h1 {
     margin-left: 20px;
+}
+
+.menuItem button {
+    margin-left: 100px;
+    padding: 10px;
+    text-align: center;
+    background-color: #2339AF;
+}
+
+.menuItem button:hover {
+    background-color: #349C21;
+}
+
+.menuItem button a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.menuItem button a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s ease-in;
 }
 
 @media only screen and (max-width: 1300px) {
