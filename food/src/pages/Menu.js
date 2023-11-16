@@ -13,6 +13,7 @@ function Menu() {
                         key={key}
                         image={menuItem.image}
                         name={menuItem.name}
+                        link={menuItem.link}
                     />
                 })}
             </div>
