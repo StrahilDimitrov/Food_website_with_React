@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
+import Salad from './pages/Salad';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/menu' element={<Menu />} />
+          <Route path='/salad' element={<Salad />} />
         </Routes>
         <Footer />
       </BrowserRouter>
