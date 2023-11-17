@@ -9,9 +9,9 @@ function Home() {
             <div
                 className="headerContainer">
                 <h1>SIMS FOOD'S</h1>
-                <p>All kinds of food for home and away!</p>
+                <p>Всякакви храни за дома и навън!</p>
                 <Link to="/menu">
-                    <button>Make your choice</button>
+                    <button>Разгледай</button>
                 </Link>
             </div>
         </div>

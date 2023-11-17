@@ -8,33 +8,33 @@ import { Link } from 'react-router-dom';
 
 export const MenuList = [
     {
-        name: "Salad",
+        name: "Салати",
         image: Salad,
-        link: <Link to='/salad'>LOOK MORE</Link>
+        link: <Link to='/salad'>Виж още</Link>
     },
     {
-        name: "Pizza",
+        name: "Пици",
         image: Pizza,
-        link: <Link to='/pizza'>LOOK MORE</Link>
+        link: <Link to='/pizza'>Виж още</Link>
     },
     {
-        name: "Sushi",
+        name: "Сушита",
         image: Sushi,
-        link: <Link to='/sushi'>LOOK MORE</Link>
+        link: <Link to='/sushi'>Виж още</Link>
     },
     {
-        name: "Drings",
+        name: "Напитки",
         image: Drings,
-        link: <Link to='/drings'>LOOK MORE</Link>
+        link: <Link to='/drings'>Виж още</Link>
     },
     {
-        name: "Hamburger",
+        name: "Хамбургери",
         image: Hamburger,
-        link: <Link to='/hamburgers'>LOOK MORE</Link>
+        link: <Link to='/hamburgers'>Виж още</Link>
     },
     {
-        name: "Dessert",
+        name: "Десерти",
         image: Dessert,
-        link: <Link to='/dessert'>LOOK MORE</Link>
+        link: <Link to='/dessert'>Виж още</Link>
     }
 ]
