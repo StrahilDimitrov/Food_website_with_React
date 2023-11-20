@@ -1,4 +1,4 @@
-.menu {
+.pizza {
     width: 100%;
     height: auto;
     display: flex;
@@ -7,12 +7,12 @@
     flex-direction: column;
 }
 
-.menu .menuTitle {
+.pizza .pizzaTitle {
     font-family: cursive;
     font-size: 60px;
 }
 
-.menuList {
+.pizzaList {
     width: 70vw;
     height: auto;
     display: grid;
@@ -20,7 +20,7 @@
     place-items: center;
 }
 
-.menuItem {
+.pizzaItem {
     border-radius: 15px;
     width: 300px;
     height: 350px;
@@ -28,13 +28,13 @@
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
 }
 
-.menuItem:hover {
+.pizzaItem:hover {
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.8);
     transition: 0.1s ease-in;
     cursor: pointer;
 }
 
-.menuItem .image {
+.pizzaItem div {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
@@ -44,41 +44,41 @@
     background-size: cover;
 }
 
-.menuItem h1 {
+.pizzaItem h1,
+.pizzaItem p {
     margin-left: 20px;
 }
 
-.menuItem .btn {
-    margin-left: 65px;
+.pizzaItem button {
+    margin-left: 100px;
     padding: 10px;
-    width: 50%;
     text-align: center;
     background-color: #2339AF;
 }
 
-.menuItem .btn:hover {
+.pizzaItem button:hover {
     background-color: #349C21;
 }
 
-.menuItem .btn a {
+.pizzaItem button a {
     text-decoration: none;
     color: #FFF;
 }
 
-.menuItem .btn a:hover {
+.pizzaItem button a:hover {
     text-decoration: none;
     cursor: pointer;
     transition: 0.3s ease-in;
 }
 
 @media only screen and (max-width: 1300px) {
-    .menuList {
+    .pizzaList {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    .menuList {
+    .pizzaList {
         grid-template-columns: 1fr;
     }
 }
