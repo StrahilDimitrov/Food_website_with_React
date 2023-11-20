@@ -3,9 +3,9 @@ import React from "react";
 function MenuItem({ image, name, link }) {
     return (
         <div className="menuItem">
-            <div style={{ backgroundImage: `url(${image})` }}></div>
+            <div className="image" style={{ backgroundImage: `url(${image})` }}></div>
             <h1>{name}</h1>
-            <button>{link}</button>
+            <div className="btn">{link}</div>
         </div>
     )
 }

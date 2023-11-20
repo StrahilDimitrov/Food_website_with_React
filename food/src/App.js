@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
 import Salad from './pages/Salad';
+import Pizza from './pages/Pizza';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/menu' element={<Menu />} />
           <Route path='/salad' element={<Salad />} />
+          <Route path='/pizza' element={<Pizza />} />
         </Routes>
         <Footer />
       </BrowserRouter>
