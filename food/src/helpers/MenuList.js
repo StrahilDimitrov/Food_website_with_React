@@ -23,11 +23,6 @@ export const MenuList = [
         link: <Link to='/sushi'>Виж още</Link>
     },
     {
-        name: "Напитки",
-        image: Drings,
-        link: <Link to='/drings'>Виж още</Link>
-    },
-    {
         name: "Хамбургери",
         image: Hamburger,
         link: <Link to='/hamburgers'>Виж още</Link>
