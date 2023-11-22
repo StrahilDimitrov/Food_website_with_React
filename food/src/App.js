@@ -9,6 +9,7 @@ import Pizza from './pages/Pizza';
 import Sushi from './pages/Sushi';
 import Hamburger from './pages/Hamburger';
 import About from './pages/About';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/sushi' element={<Sushi />} />
           <Route path='/hamburgers' element={<Hamburger />} />
           <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
         <Footer />
       </BrowserRouter>
