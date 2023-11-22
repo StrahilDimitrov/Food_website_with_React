@@ -1,0 +1,84 @@
+.hamburger {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hamburger .hamburgerTitle {
+    font-family: cursive;
+    font-size: 60px;
+}
+
+.hamburgerList {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.hamburgerItem {
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hamburgerItem:hover {
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.8);
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+
+.hamburgerItem div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hamburgerItem h1,
+.hamburgerItem p {
+    margin-left: 20px;
+}
+
+.hamburgerItem button {
+    margin-left: 100px;
+    padding: 10px;
+    text-align: center;
+    background-color: #2339AF;
+}
+
+.hamburgerItem button:hover {
+    background-color: #349C21;
+}
+
+.hamburgerItem button a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.hamburgerItem button a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+@media only screen and (max-width: 1300px) {
+    .hamburgerList {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .hamburgerList {
+        grid-template-columns: 1fr;
+    }
+}
