@@ -1,0 +1,84 @@
+.dessert {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dessert .dessertTitle {
+    font-family: cursive;
+    font-size: 60px;
+}
+
+.dessertList {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.dessertItem {
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+}
+
+.dessertItem:hover {
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.8);
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+
+.dessertItem div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dessertItem h1,
+.dessertItem p {
+    margin-left: 20px;
+}
+
+.dessertItem button {
+    margin-left: 100px;
+    padding: 10px;
+    text-align: center;
+    background-color: #2339AF;
+}
+
+.dessertItem button:hover {
+    background-color: #349C21;
+}
+
+.dessertItem button a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.dessertItem button a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+@media only screen and (max-width: 1300px) {
+    .dessertList {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .dessertList {
+        grid-template-columns: 1fr;
+    }
+}
